@@ -1,0 +1,93 @@
+
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+   
+    box-shadow: 0px 0px 0px 1px lightgray;
+}
+  
+  .navbar-left{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-left: 10px;
+    font-size: 12px;
+  }
+  
+  .navbar-left h2:hover{
+    height: 100%;
+    border-bottom: 3px solid black;
+    display: flex;
+    align-items: center;
+    transition: 0.1s ease-in;
+  }
+  
+  .navbar-right{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-right: 10px;
+    justify-content: flex-end;
+  }
+  
+  .navbar-login{
+    width: 100px;
+    height: 30px;
+    color: #0057FF;
+    background-color: white;
+    border: 0.5px solid #C0D3FF;
+    border-radius: 25px;
+    font-weight: 700;
+  }
+
+  .navbar-login:hover{
+    background-color: #DEE8FF;
+  }
+  
+  .navbar-signup{
+    width: 100px;
+    height: 30px;
+    color: white;
+    background-color: #1e52cc;
+    border: 0.5px solid #003ECB;
+    border-radius: 25px;
+    font-weight: 700;
+  }
+
+  .navbar-signup:hover{
+    background-color:  #003ECB;
+  }
+  
+  .navbar-btn{
+    width: 100px;
+    height: 30px;
+    color: black;
+    background-color: white;
+    border: 0.5px solid lightblue;
+    border-radius: 25px;
+    font-weight: 700;
+  }
+  
+  .navbar-noti{
+    width: 20px;
+  }
+  
+  .navbar-adobe{
+    font-weight: 600;
+    background-color: white;
+    border: none;
+  }
+  
+  .navbar-divider{
+    opacity: 0.1;
+    border-right: 2px solid black;
+    border-top-width: 2px;
+  }
+  
+
+  @media only screen and (max-width: 930px) {
+    .navbar-left > h2{
+      display: none;
+    }
+  }

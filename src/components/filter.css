@@ -1,0 +1,164 @@
+
+
+  
+.filter-search{
+    /* width: 100%; */
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2px;
+    padding: 15px;
+    box-shadow: 0px 2px lightgray;
+}
+
+.filter-search-toggle{
+    margin-left: 300px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: end;
+    margin-top: 2px;
+    padding: 15px;
+    box-shadow: 0px 2px lightgray;
+}
+
+
+
+.filter-btn {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 50px;
+    color: black;
+    background-color: white;
+    border: 1px solid #F0F0F0;
+    border-radius: 25px;
+    
+}
+
+.filter-btn:hover {
+    background-color: lightgray;
+}
+
+.filter {
+   border: none;
+   background-color: transparent;
+   color: black;
+   font-weight: 700;
+}
+
+.search {
+    flex: 5;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+    background-color: #F9F9F9;
+    border: 1px solid #F0F0F0;
+    border-radius: 25px;
+}
+
+.search:focus-within{
+    background-color: white;
+}
+
+.search-bar > input{
+    background-color: #F9F9F9;
+    color: black;
+    width: 700px;
+    height: 20px;
+    border: none;
+    margin-left: 10px;
+}
+
+.search-bar > input:focus-within{
+    background-color: white;
+    outline: none;
+    border: none;
+}
+
+.search-bar > input:focus > .search{
+    background-color: white;
+}
+
+
+
+.sort{
+    flex: 0 0 180px;
+    background-color: white;
+    margin: 2 2 2 2 ;
+    border: 1px solid #F0F0F0;
+    padding: 5px 6px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.sort > h3 {
+    position: absolute;
+    background: white;
+    color: #1D1D1D;
+    height: 10px;
+    font-size: 12px;
+    margin-top: -12px;
+    margin-left: 12px;
+    padding: 0 2px;
+}
+
+.sort > button {
+    font-size: 14px;
+    margin-top: -5px;
+}
+
+.dropbtn {
+    background-color: white;
+    color: black;
+    font-weight: 600;
+    padding: 10px;
+    font-size: 12px;
+    border: none;
+}
+
+
+.sort:hover, .sort:focus > .dropbtn{
+    border: 1px solid black;
+}
+
+.sort:hover, .sort:focus{
+    color: black;
+}
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    margin-left: 12px;
+    min-width: 160px;
+    box-shadow: 0px 2px 4px 0px grey;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    font-weight: 600;
+    padding: 8px 12px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    color: blue;
+}
+  
+
+.show {display:block;}
+  

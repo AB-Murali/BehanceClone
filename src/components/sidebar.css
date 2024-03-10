@@ -1,0 +1,250 @@
+
+.sidebar{
+    /* width: 300px; */
+    flex: 0 0 300px;
+    max-height: 120vh;
+    margin-top: -80px;
+    box-shadow: 1px 1px 0px 0px lightgray;
+    overflow: none;
+    overflow-y: scroll;
+}
+
+  
+.sidebar-header{
+margin-top: 10px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.sidebar-header > span {
+  margin-left: 5px;
+}
+
+.sidebar-filter{
+padding: 8px;
+margin: 5px;
+border: none;
+background-color: transparent;
+font-size: 16px;
+font-weight: 700;
+}
+
+.sidebar-sections{
+display: flex;
+flex-direction: column;
+padding: 10px;
+gap: 10px;
+margin: 5px;
+margin-bottom: 30px;
+}
+
+.sidebar-section-btn{
+width: 100%;
+height: 40px;
+font-weight: 600;
+border: 1px solid #ECECEC;
+border-radius: 25px;
+background-color: white;
+color: black;
+}
+
+.sidebar-section-btn:hover{
+border: 1px solid #ECECEC;
+border-radius: 25px;
+background-color: #F0F0F0;
+color: black;
+}
+
+.section-details{
+    display: flex;
+    flex-direction: column;
+}
+
+.project-section, .asset-section, .people-section, .image-section{
+    display: flex;
+    flex-direction: column;
+    margin: 4px;
+}
+
+.project-section > button, .asset-section > button, .people-section > button, .image-section > button{
+    padding: 10px;
+    margin: 1px;
+    background-color: white;
+    border: none;
+    border-bottom: 0.5px solid lightgrey;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: left;
+    padding: 20px;
+}
+
+.project-section > button:last-child, .asset-section > button:last-child, .people-section > button:last-child, .people-section > button:last-child{
+    border-bottom: none;
+}
+
+.project-section-noline > button{
+    border-bottom: none;
+}
+
+
+
+/* Fields */
+
+
+.creativeFields {
+    font-size: 14px;
+    margin-left: 10px;
+    max-height: 100px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.creativeFields > p:hover {
+    color: blue;
+}
+
+.availability{
+    font-size: 14px;
+}
+
+.availability > label {
+    display: block;
+    padding: 5px;
+}
+
+.location {
+    display: block;
+    max-width: 280px;
+    padding: 5px 5px;
+}
+
+.location > input {
+    width: 98%;
+    height: 30px;
+    margin-top: 5px;
+}
+
+.location-selector{
+    width: 100%;
+    background-color: white;
+    border: 1px solid gray;
+    height: 30px;
+    margin-top: 5px;
+}
+  
+  .location-selector > label {
+    position: absolute;
+    background: white;
+    color: grey;
+    height: 10px;
+    font-size: 12px;
+    margin-top: -10px;
+    margin-left: 6px;
+    padding: 2px 2px;
+
+  }
+
+  .location-selector:focus-within {
+    border: 1px solid blue;
+  }
+
+  .location-selector > select {
+    border: none;
+    text-align: left;
+    width: 100%;
+    height: 30px;
+  }
+
+  .location-selector > select:focus, .location-selector > select:active{
+    border: none;
+  }
+  
+
+  .tools{
+    text-align: left;
+    max-width: 280px;
+    padding: 5px 5px;
+  }
+
+  .tools > input {
+    width: 100%;
+    height: 30px;
+  }
+
+  .tools > input:focus, .tools > input:active{
+    border: 1px solid blue;
+  }
+  .sectionSubHead{
+    text-align: left;
+    color: gray;
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  .tools > ul{
+    margin-top: 0px;
+    padding: 0;
+  }
+
+  .tools > ul > li:hover{
+    color: blue;
+  }
+
+  .colors {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 5px;
+    padding-left: 10px;
+    margin-top: 10px;
+    padding-right: 10px;
+  }
+
+  .colorStyle{
+    width: 20px;
+    height: 20px;
+    border-radius: 25px;
+    cursor: pointer;
+  }
+
+
+.price{
+    font-size: 14px;
+}
+
+.price > label {
+    display: block;
+    padding: 5px;
+}
+
+.categories{
+    font-size: 14px;
+}
+
+.categories > label {
+    display: block;
+    padding: 5px;
+}
+
+.fileExtensions{
+    font-size: 14px;
+    max-width: 280px;
+}
+
+.fileExtensions > label {
+    display: block;
+    padding: 5px;
+}
+
+.fileExtensions > input {
+    width: 100%;
+    height: 30px;
+    margin-top: 5px;
+    border: 0.5px solid gray;
+    
+}
+
+.fileExtensions > input:active, .fileExtensions > input:focus {
+    border: 1px solid blue;
+}
