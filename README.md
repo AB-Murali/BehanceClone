@@ -14,11 +14,11 @@ https://venerable-cocada-0b13f6.netlify.app/
 
 ![Image One](https://github.com/AB-Murali/BehanceClone/blob/main/readmeFiles/1.png)
 
-![Image Two](https://github.com/AB-Murali/BehnaceClone/readmeFiles/1.png?raw=true](https://github.com/AB-Murali/BehanceClone/blob/main/readmeFiles/2.png)
+![Image Two](https://github.com/AB-Murali/BehanceClone/blob/main/readmeFiles/2.png)
 
-![Image Three](https://github.com/AB-Murali/BehnaceClone/readmeFiles/1.png?raw=true](https://github.com/AB-Murali/BehanceClone/blob/main/readmeFiles/3.png)
+![Image Three](https://github.com/AB-Murali/BehanceClone/blob/main/readmeFiles/3.png)
 
-![Image Four](https://github.com/AB-Murali/BehnaceClone/readmeFiles/1.png?raw=true](https://github.com/AB-Murali/BehanceClone/blob/main/readmeFiles/4.png)
+![Image Four](https://github.com/AB-Murali/BehanceClone/blob/main/readmeFiles/4.png)
 
 ## Tech Stack
 React, CSS, MaterialUI, API
