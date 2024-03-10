@@ -12,7 +12,7 @@ You can try the demo here
 https://venerable-cocada-0b13f6.netlify.app/
 ## Screenshots
 
-![Image One]("https://github.com/AB-Murali/BehnaceClone/readmeFiles/1.png?raw=true](https://github.com/AB-Murali/BehanceClone/blob/main/readmeFiles/1.png")
+![Image One](https://github.com/AB-Murali/BehanceClone/blob/main/readmeFiles/1.png)
 
 ![Image Two](https://github.com/AB-Murali/BehnaceClone/readmeFiles/1.png?raw=true](https://github.com/AB-Murali/BehanceClone/blob/main/readmeFiles/2.png)
 
